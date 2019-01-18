@@ -83,6 +83,10 @@ export DATA_BUCKET_LOCATION=${INPUT_DIR}
 
 #=============== Execute Scenarios ===============================================
 
+echo "============================================== start"
+cat $DATA_BUCKET_LOCATION/deployment.properties
+echo "============================================== stop"
+
 #Retreive product version
 PRODUCT_VERSION_FOUND=false
 while IFS= read -r line
