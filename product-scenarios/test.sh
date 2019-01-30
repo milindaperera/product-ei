@@ -80,7 +80,7 @@ echo "input directory : ${INPUT_DIR}"
 echo "output directory : ${OUTPUT_DIR}"
 
 export DATA_BUCKET_LOCATION=${INPUT_DIR}
-
+echo $DATA_BUCKET_LOCATION/deployment.properties
 #=============== Execute Scenarios ===============================================
 #Retreive product version
 PRODUCT_VERSION_FOUND=false
