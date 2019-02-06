@@ -81,7 +81,7 @@ echo "output directory : ${OUTPUT_DIR}"
 
 export DATA_BUCKET_LOCATION=${INPUT_DIR}
 cat $DATA_BUCKET_LOCATION/deployment.properties
-sleep 3600
+sleep 7200
 #=============== Execute Scenarios ===============================================
 #Retreive product version
 PRODUCT_VERSION_FOUND=false
